@@ -62,7 +62,7 @@ const Landing = () => {
             </p>
 
             <div
-              className={`${styles.actionButContainer} flex flex-col gap-3 text-black`}
+              className={`${styles.actionButContainer} md:hidden flex flex-col gap-3 text-black`}
             >
               <input
                 type={"text"}
@@ -80,6 +80,7 @@ const Landing = () => {
                 </button>
               </div>
             </div>
+
             <div className=" hidden md:flex items-center bg-c-red rounded-full">
               <div className="flex flex-1 items-center bg-white text-black rounded-l-full p-4 px-5 gap-3">
                 <input
