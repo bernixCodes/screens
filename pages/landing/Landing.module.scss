@@ -1,0 +1,35 @@
+.header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.44)),
+    url("../../public/images/landing-bg.jpg") no-repeat center center/cover;
+}
+
+.navContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.searchContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.actionButContainer {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    background: linear-gradient(
+        0deg,
+        rgba(3, 73, 103, 0.2),
+        rgba(4, 136, 172, 0.44)
+      ),
+      url("../../public/images/map.png") no-repeat center center/cover;
+  }
+  .navContainer {
+    width: 96%;
+  }
+  .searchContainer {
+    width: 90%;
+  }
+}
